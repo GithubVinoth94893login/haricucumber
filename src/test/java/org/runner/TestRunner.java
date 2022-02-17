@@ -8,5 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features= {"C:\\Users\\hari haran\\eclipse-workspace\\Program\\src\\test\\resources\\Login.feature"},glue= {"org.def"})
 public class TestRunner {
-
+public void tc02() {
+System.out.println("2");
+}
 }
